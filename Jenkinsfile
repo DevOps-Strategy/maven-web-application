@@ -50,7 +50,7 @@ node {
        sh 'cp $WORKSPACE/target/*.war /Users/bhaskarreddyl/BhaskarReddyL/Softwares/Running/apache-tomcat-9.0.12/webapps/'
        sh 'echo deploymnet done'
    }
-   */
+   
    stage ('Email Notifcation'){
        
        mail bcc: '', body: '''Build done
@@ -60,3 +60,4 @@ Mithun Technologies''', cc: 'bhaskar0504@gmail.com', from: '', replyTo: '', subj
    } 
     
 }
+*/
