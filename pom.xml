@@ -88,13 +88,13 @@
 	<distributionManagement>
     <repository>
         <id>central</id>
-        <name>chakri-releases</name>
+        <name>mvn-release</name>
         <url>http://localhost:8081/artifactory/mvn-release</url>
     </repository>
     <snapshotRepository>
         <id>snapshot</id>
-        <name>chakri-snapshots</name>
-        <url>http://localhost:8081/artifactory/mvn-release</url>
+        <name>mvn-snapshot</name>
+        <url>http://localhost:8081/artifactory/mvn-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 	<build>
