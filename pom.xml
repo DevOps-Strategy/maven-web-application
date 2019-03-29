@@ -92,7 +92,7 @@
         <url>http://localhost:8081/artifactory/mvn-release</url>
     </repository>
     <snapshotRepository>
-        <id>snapshot</id>
+        <id>snapshots</id>
         <name>mvn-snapshot</name>
         <url>http://localhost:8081/artifactory/mvn-snapshot</url>
     </snapshotRepository>
