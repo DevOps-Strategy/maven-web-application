@@ -86,18 +86,17 @@
 	</dependencies>
 	
 	<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://ec2-13-233-165-143.ap-south-1.compute.amazonaws.com:8081/repository/flipkart-release/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://ec2-13-233-165-143.ap-south-1.compute.amazonaws.com:8081/repository/flipkart-snapshot/</url>
-	    </snapshotRepository>
-	</distributionManagement>
-	
+    <repository>
+        <id>central</id>
+        <name>chakri-releases</name>
+        <url>http://localhost:8081/artifactory/mvn-release</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshot</id>
+        <name>chakri-snapshots</name>
+        <url>http://localhost:8081/artifactory/mvn-release</url>
+    </snapshotRepository>
+</distributionManagement>
 	<build>
 		<finalName>maven-web-application</finalName>
 		<plugins>
